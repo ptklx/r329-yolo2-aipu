@@ -21,6 +21,20 @@ https://github.com/dianjixz/v831_yolo
 
 #https://github.com/matrix-2020/quantize_script/tree/6c1c5fbab5e97d5760be772d7310f1594a92c210
 也就最后自己添加region，和nms 的奇葩
+ ####### name yolo_416 MAX         ....        min ####
+    # 'yolo_416_region_0': array([0.]), 
+    # 'yolo_416_region': {'coords': 13},       #min 'yolo_416_region': {'coords': -2.7752295},
+    # 'yolo_416_region_1': array([0.]), 
+    # 'yolo_416_region_2': array([0.]), 
+    # 'yolo_416_region_3': array([0.]), 
+    # 'yolo_416_region_4': array([0.]), 
+
+    # 'yolo_416_nms_0': array([0.]), 
+    # 'yolo_416_nms_1': array([0.]),
+    # 'yolo_416_nms_2': array([0.]), 
+    # 'yolo_416_nms_3': array([0.])
+ 可以看到大多数是0
+
 最后参考model-zoo官方删除的v2.0版本，配置cfg，input也是坑
 还得整合个r329-Tina-jishu,全志的直接配置aipu，再改下sys_partition.fex 大小，很好编译过，
 但，就怕但了，我用的是sipeed开发板不是哪个evb5，也就不想改端口配置了https://r329.docs.aw-ol.com/r329_evb5/
