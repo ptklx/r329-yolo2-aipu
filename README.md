@@ -22,8 +22,9 @@ https://github.com/dianjixz/v831_yolo
 #https://github.com/matrix-2020/quantize_script/tree/6c1c5fbab5e97d5760be772d7310f1594a92c210
 也就最后自己添加region，和nms 的奇葩
  ####### name yolo_416 MAX         ....        min ####
-    # 'yolo_416_region_0': array([0.]), 
-    # 'yolo_416_region': {'coords': 13},       #min 'yolo_416_region': {'coords': -2.7752295},
+ 
+    # 'yolo_416_region_0': array([0.]),
+    # 'yolo_416_region': {'coords': 13},       #min 'yolo_416_region': {'coords': -2.7752295}, 
     # 'yolo_416_region_1': array([0.]), 
     # 'yolo_416_region_2': array([0.]), 
     # 'yolo_416_region_3': array([0.]), 
